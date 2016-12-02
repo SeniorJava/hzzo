@@ -1,0 +1,57 @@
+
+.headSection {
+    position: relative;
+    border: 1px solid red;
+    width: 80%;
+    overflow: hidden;
+}
+
+.mainPhoto {
+    -display: inline-block;
+    float:left;
+    height: 300px;
+    min-width: 250px;
+    background-color: aquamarine;
+    margin-right: 20px;
+}
+
+.hello {
+    -display: inline-block;
+    vertical-align: top;
+    float:left;
+    min-width: 250px;
+    max-width: 60%;
+    background-color: antiquewhite;
+    margin-right: 10px;
+}
+
+.navSection {
+    border: 1px solid blue;
+    width: 80%;
+}
+
+.navList {
+    list-style: none;
+    text-align: center;
+}
+
+.page {
+    min-height: 125px;
+    min-width: 100px;
+    background-color: aquamarine;
+    margin-right: 20px;
+
+}
+
+.navList .page h2 {
+    background-color: aqua;
+
+}
+
+li {
+    display: inline-block;
+}
+
+.navPage {
+
+}
