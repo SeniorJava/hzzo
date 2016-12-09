@@ -1,9 +1,12 @@
+section{
+    box-sizing: border-box;
+}
 .headSection {
     margin-top: 90px;
     padding-left: 5px;
     position: relative;
     -border: 1px solid red;
-    -width: 80%;
+    width: 80%;
     overflow: hidden;
 }
 
@@ -12,8 +15,8 @@
     float:left;
     height: 300px;
     min-width: 250px;
-    background-color: aquamarine;
-    background-image: url(boss.JPG);
+    -background-color: aquamarine;
+    background-image: url(img/boss.JPG);
     background-size: cover;
     margin-right: 20px;
 }
@@ -24,13 +27,14 @@
     float:left;
     min-width: 250px;
     max-width: 60%;
-    background-color: antiquewhite;
+    -background-color: antiquewhite;
     margin-right: 10px;
 }
 
 .navSection {
-    border: 1px solid blue;
-    -width: 80%;
+    margin-top: 30px;
+    -border: 1px solid blue;
+    width: 80%;
 }
 
 .navList {
@@ -41,23 +45,61 @@
 .page {
     height: 175px;
     width: 150px;
-    background-color: aquamarine;
+    -background-color: aquamarine;
     margin-right: 20px;
-    background-image: url(news.jpg);
+
     background-repeat: no-repeat;
     background-position: center;
     background-size: 100%;
 
 }
 
+    li:nth-child(1) .page {
+        background-image: url(img/newsGreen.png);
+    }
+
+    li:nth-child(2) .page {
+        background-image: url(img/sertificate1Green.png);
+    }
+
+    li:nth-child(3) .page {
+        background-image: url(img/otz1Green.png);
+    }
+
+    li:nth-child(4) .page {
+        background-image: url(img/fotoGreen.png);
+    }
+
+    li:nth-child(5) .page {
+        background-image: url(img/videoGreen.png);
+    }
+
+    li:nth-child(6) .page {
+        background-image: url(img/pressGreen.png);
+    }
+
+
 .navList .page h4 {
-    background-color: aqua;
+    -background-color: aqua;
+    color: #24564b;
 
 }
 
 li {
     display: inline-block;
+    border:  2px solid transparent;
+    border-radius: 5px;
 }
+
+    li .page:hover h4 {
+        -color: black;
+        font-style: italic;
+        font-weight: bold;
+    }
+
+    li:hover  {
+        -border:  2px solid green;
+    }
 
 .navPage {
 
