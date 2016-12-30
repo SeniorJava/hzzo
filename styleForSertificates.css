@@ -1,16 +1,48 @@
+
+.sertConteiner {
+    margin-top: 70px;
+    width: 85%;
+    -background-color: red;
+    position: relative;
+
+}
+
 .sertImage {
     width:300px;
-    cursor: pointer;
-    transition:width .5s ease;
-    margin: 20px 30px;
+    -cursor: pointer;
+    -transition:width .9s ease;
+    margin-right: 10px ;
+    -position: static;
+    background-color: aliceblue;
+
+
+}
+.your-class {
+    width: 70%;
+    margin: 0 auto;
+}
+
+body {
+    background-color: bisque;
 }
 
 /*
-.sertImage:hover {
-    width:500px;
+ .sertImage:focus {
+    width:400px;
+    position: fixed;
+    right: calc(50% - 200px);
+    top: calc(55% - 300px);
 }
 */
 
-.sertImage:focus {
-    width:500px;
-}
+/* .sertImageFocus {
+    width:400px;
+    position: fixed;
+    right: calc(50% - 200px);
+    top: calc(55% - 300px);
+} */
+
+/* .sertImage:focus:active {
+    width:200px;
+    position: static;
+} */

@@ -1,14 +1,40 @@
+
 section{
     box-sizing: border-box;
 }
 .headSection {
     margin-top: 90px;
-    padding-left: 5px;
+    -padding: 5px;
     position: relative;
-    -border: 1px solid red;
+    -border: 2px solid #24564b;
+    border-radius: 3px;
     width: 80%;
     overflow: hidden;
+    height: 500px;
+     border-top: 2px solid #24564b;
 }
+
+
+.videoBoss  {
+    display: inline-block;
+    width: 60%;
+    height: 100%;
+    margin-right: 5px;
+    position: absolute;
+    left: 0;
+
+}
+
+.videoBoss video {
+   width:100%;
+   max-height: 400px;
+}
+
+.videoConteiner{
+}
+
+.whoIAm {
+    }
 
 .mainPhoto {
     -display: inline-block;
@@ -16,20 +42,33 @@ section{
     height: 300px;
     min-width: 250px;
     -background-color: aquamarine;
-    background-image: url(img/boss.JPG);
+    background-image: url(assets/forAbout/boss.JPG);
     background-size: cover;
     margin-right: 20px;
 }
 
 .hello {
-    -display: inline-block;
-    vertical-align: top;
-    float:left;
-    min-width: 250px;
-    max-width: 60%;
-    -background-color: antiquewhite;
-    margin-right: 10px;
+   display: inline-block;
+    position: absolute;
+    right: 0;
+    width:calc(40% - 5px) ;
+    border: 2px solid #24564b;
+    border-top: none;
 }
+
+    .videoBoss .whois {
+    text-align: center;
+    border-bottom: 2px solid #24564b;
+}
+.videoBoss .whois h3 {
+    color: #24564b;
+    font-weight: 600;
+}
+    .videoBoss .whois p {
+        font-size: 1.5rem;
+    }
+
+
 
 .navSection {
     margin-top: 30px;
@@ -55,29 +94,32 @@ section{
 }
 
     li:nth-child(1) .page {
-        background-image: url(img/newsGreen.png);
+        background-image: url(assets/forAbout/newsGreen.png);
     }
 
     li:nth-child(2) .page {
-        background-image: url(img/sertificate1Green.png);
+        background-image: url(assets/forAbout/sertificate1Green.png);
     }
 
     li:nth-child(3) .page {
-        background-image: url(img/otz1Green.png);
+        background-image: url(assets/forAbout/otz1Green.png);
     }
 
     li:nth-child(4) .page {
-        background-image: url(img/fotoGreen.png);
+        background-image: url(assets/forAbout/fotoGreen.png);
     }
 
     li:nth-child(5) .page {
-        background-image: url(img/videoGreen.png);
+        background-image: url(assets/forAbout/videoGreen.png);
     }
 
     li:nth-child(6) .page {
-        background-image: url(img/pressGreen.png);
+        background-image: url(assets/forAbout/pressGreen.png);
     }
 
+    li:nth-child(7) .page {
+        background-image: url(assets/forAbout/zavodGreen.png);
+    }
 
 .navList .page h4 {
     -background-color: aqua;
@@ -111,3 +153,5 @@ li {
         display: block;
         height: 100%;
     }
+
+
